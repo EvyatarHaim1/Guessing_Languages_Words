@@ -1,4 +1,4 @@
-# Guessing_Languages_Words-
+# Guessing Languages Words
 Unity 2D game - C#
 
 This game is a mix of my desire to improve my languages knowledsge, 
