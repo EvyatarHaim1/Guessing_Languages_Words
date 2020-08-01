@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8c182b3d34d4e74b97cfedb7b2f126e
+guid: 52e5a7cda6c4a7048871248b4ef21234
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Dana Yad AlefAlefAlef
+  fontName: Comix No2 CLM
   fontNames:
-  - Dana Yad AlefAlefAlef
+  - Comix No2 CLM
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

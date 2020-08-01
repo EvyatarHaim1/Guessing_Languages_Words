@@ -12,7 +12,7 @@ TrueTypeFontImporter:
   fontNames:
   - Dana Yad AlefAlefAlef
   fallbackFontReferences:
-  - {fileID: 12800000, guid: c8c182b3d34d4e74b97cfedb7b2f126e, type: 3}
+  - {fileID: 12800000, guid: b6181d4adc9af0b4da0d5160aca9fbee, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

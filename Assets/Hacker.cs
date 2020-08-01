@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Hacker : MonoBehaviour
 {
-    const string menuHint = "You may type menu at any time.";
+    const string menuHint = "Type 'menu' to the home page.";
     string[] level1Passwords = { "books", "uniform", "shelf", "password", "font", "prisoner", "arrest" };
-    string[] level2Passwords = { "בגדים", "הליכה", "סליחה", "כוכבים", "משפחה", "אמצעים", "מלכות"};
+    string[] level2Passwords = { "grazie", "prego", "adesso", "bella", "montagna", "mare", "nuovo" };
     string[] level3Passwords = { "quiero","hablar","caminar","procupado","verdad","cielo", "tocar" };
-    string[] level4Passwords = { "merci", "Maison", "femme", "soleil", "monde", "demain", "langue" };
+    string[] level4Passwords = { "merci", "maison", "femme", "soleil", "monde", "demain", "langue" };
 
     int level;
     enum Screen { MainMenu, Password, Win};
@@ -26,11 +26,11 @@ public class Hacker : MonoBehaviour
         level = 0;
         password = "";
         Terminal.ClearScreen();
-        Terminal.WriteLine("What would you like to hack into?");
-        Terminal.WriteLine("Press 1 for test your English");
-        Terminal.WriteLine("Press 2 for test your Hebrew");
-        Terminal.WriteLine("Press 3 for test your spanish");
-        Terminal.WriteLine("Press 4 for test your French");
+        Terminal.WriteLine("In which language do you want to test  yourself?");
+        Terminal.WriteLine("Press 1 to test your English");
+        Terminal.WriteLine("Press 2 to test your Italian");
+        Terminal.WriteLine("Press 3 to test your spanish");
+        Terminal.WriteLine("Press 4 to test your French");
         Terminal.WriteLine("Enter you selection: ");
     }
 
@@ -80,7 +80,7 @@ public class Hacker : MonoBehaviour
         currentScreen = Screen.Password;
         Terminal.ClearScreen();
         SetRandomPassword();
-        Terminal.WriteLine("Enter your password, hint: " + password.Anagram());
+        Terminal.WriteLine("Reorder the letters to form a real word \n " + password.Anagram());
         Terminal.WriteLine(menuHint);
 
     }
@@ -134,7 +134,7 @@ public class Hacker : MonoBehaviour
         {
             case 1:
                 Terminal.WriteLine("Your English is quite good!");
-                Terminal.WriteLine("Play again to test yourself in other language");
+                Terminal.WriteLine("Play again and test yourself in \n a different language");
                 Terminal.WriteLine(@"
     ________________       
    /      //      //
@@ -145,14 +145,18 @@ public class Hacker : MonoBehaviour
                 );
                 break;
             case 2:
-                Terminal.WriteLine("Your Hebrew is quite good!");
+                Terminal.WriteLine("Your Italian is quite good!");
                 Terminal.WriteLine("Play again for a greater challenge.");
                 Terminal.WriteLine(@"
- __/\__
- \/  \/
- /\  /\   
- ﹋\/﹋
-"
+                        |~~~~--.
+                        |%=@%%/
+                        |o%%%/
+                     __ |%%o/
+               _,--~~ | |(_/ ._
+            ,/'  m%%%%| |o/ /  `\.
+           /' m%%o(_)%| |/ /o%%m `\
+          |%o%%%%%=@%%|  /%%o%%@=%%\
+          |_)%(_)%%o%%| /%%%=@(_)%%%|"
                 );
                 break;
             case 3:

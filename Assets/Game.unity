@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 22103938}
   - component: {fileID: 22103937}
   m_Layer: 0
-  m_Name: TMP SubMesh [hebrew_font Material + LiberationSans SDF Atlas]
+  m_Name: TMP SubMesh [DanaYad Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,8 +421,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u05E2\u05DB\u05D2\u05E2\u05D2\u05E2"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 53c23639824673544a5a6051213ec404, type: 2}
-  m_sharedMaterial: {fileID: -2291426472178537279, guid: 53c23639824673544a5a6051213ec404,
+  m_fontAsset: {fileID: 11400000, guid: 16dd3ba2e8542b743a37bcf01bb85847, type: 2}
+  m_sharedMaterial: {fileID: -1780350828113501290, guid: 16dd3ba2e8542b743a37bcf01bb85847,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -546,7 +546,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2291426472178537279, guid: 53c23639824673544a5a6051213ec404, type: 2}
+  - {fileID: -1780350828113501290, guid: 16dd3ba2e8542b743a37bcf01bb85847, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
