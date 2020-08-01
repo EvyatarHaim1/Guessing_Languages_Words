@@ -10,3 +10,4 @@ There is a randomization on the 7 words and I added ASCII drawings for the level
 So go ahead and test your knowledge in different languages ;)
 
 
+https://sharemygame.com/@EvyatarHaim/guessing-languages-words
