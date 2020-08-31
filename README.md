@@ -11,7 +11,10 @@ So go ahead and test your knowledge in different languages ;)
 
 https://sharemygame.com/@EvyatarHaim/guessing-languages-words
 
-![Image description](/https://github.com/EvyatarHaim1/Guessing_Languages_Words/blob/master/Assets/view.png)
+
+![alt text](https://github.com/EvyatarHaim1/Guessing_Languages_Words/blob/master/Assets/view.png)?raw=true)
+
+
 
 
 
